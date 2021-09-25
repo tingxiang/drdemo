@@ -1,0 +1,26 @@
+{
+  "name": "drdemo",
+  "version": "0.0.1",
+  "description": "Dynamic render demo: Lots of cat pictures!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "rendertron-middleware": "^0.1.5"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/drdemo"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "rendertron",
+    "express"
+  ]
+}
