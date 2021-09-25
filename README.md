@@ -31,9 +31,9 @@ $ curl https://drdemo.glitch.me
   </template>
   <script src="client.js"></script>
 </body>
+```
 
-
-Google bot (with different User-Agent) see pre render content:
+Google bot (with different User-Agent) see pre render content without javascript:
 
 ```sh
 $ curl -H 'User-Agent: googlebot' https://drdemo.glitch.me/
